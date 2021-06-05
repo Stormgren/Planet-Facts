@@ -13,4 +13,4 @@ https://planet-facts-stormgren.netlify.app/
 ### Mobile:
 ![Mobile](https://user-images.githubusercontent.com/36208308/120905243-0bf22000-c651-11eb-846e-a27a61566427.png)
 
-![Dropdown](https://user-images.githubusercontent.com/36208308/120905249-19a7a580-c651-11eb-93b5-e14fd48e093e.png)
+![Dropdown](https://user-images.githubusercontent.com/36208308/120905298-75722e80-c651-11eb-993e-0490be48af2c.png)
