@@ -1,0 +1,225 @@
+.planet {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.btn-responsive {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+.planet-image {
+  width: 400px;
+
+  margin: 0 auto;
+}
+
+.planet-image__src {
+  width: 400px;
+  height: 400px;
+}
+.src-static {
+  position: relative;
+  top: 0px;
+}
+.src-mover {
+  position: relative;
+  top: 82px;
+}
+span {
+  color: #767e92;
+}
+.planet-link {
+  color: #767e92;
+  padding-left: 10px;
+}
+.hideGeo {
+  display: none;
+}
+.planet-image__geo {
+  position: relative;
+  width: 140px;
+  height: 160px;
+
+  margin: 0;
+  z-index: 1;
+  left: 130px;
+  bottom: 20px;
+  overflow: hidden;
+}
+
+.displayGeo {
+  display: inline-block;
+}
+.planet-info {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.deactive-btn {
+  background: transparent;
+}
+.active-btn {
+  background: #6f2ed6;
+}
+
+.planet-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-top: 40px;
+  padding: 10px;
+}
+.data-card {
+  border: 1px solid #767e92;
+  padding-left: 10px;
+}
+
+.data-card p {
+  color: #767e92;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 875px) {
+  .planet {
+    max-width: 600px;
+  }
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .planet-image {
+    height: 400px;
+  }
+  .src-mover {
+    position: relative;
+    top: 0px;
+  }
+
+  .planet-image__geo {
+    bottom: 120px;
+  }
+  .planet-info {
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .planet-info__text {
+    width: 300px;
+  }
+
+  .btn-container {
+    width: 250px;
+    margin-top: 40px;
+  }
+
+  .planet-content {
+    width: 300px;
+  }
+
+  .planet-data {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .planet {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .btn-responsive {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #838391;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    color: #767e92;
+
+    border: 3px solid transparent;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  .active-btn {
+    color: white;
+    background: transparent;
+    border-bottom: 3px solid #6f2ed6;
+  }
+  .planet-image {
+    width: 200px;
+    height: 300px;
+  }
+  .planet-image__src {
+    width: 200px;
+    height: 200px;
+  }
+
+  .planet-image__geo {
+    width: 100px;
+    height: 120px;
+    bottom: 40px;
+    left: 50px;
+  }
+  .planet-info {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .planet-info__text {
+    min-width: 300px;
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .planet-data {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    padding: 0;
+  }
+
+  .data-card {
+    width: 90vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-right: 0;
+  }
+}
