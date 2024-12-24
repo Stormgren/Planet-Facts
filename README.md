@@ -1,6 +1,6 @@
 ### Planet Facts
 Website that shows informations about planets from our Solar System built with React and React DOM
-
+### REWORK IN PROGRESS 
 ### Live Demo:
 https://planet-facts-stormgren.netlify.app/
 
